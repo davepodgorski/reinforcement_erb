@@ -1,4 +1,5 @@
 class ProfilesController < ApplicationController
-  def new
+def new
+  @labels = ["mail", "username", "website", "pin", "address", "alias"]
   end
 end
